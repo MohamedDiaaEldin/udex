@@ -17,3 +17,58 @@
 ' Evaluation
 
 
+
+; Strings 
+' (writeln (string-append "mohamed" " " "Diaa" ) )
+' (writeln (string-length "diaa"))
+' (writeln (substring "diaaeldin" 2 4))
+
+
+; Images 
+(require 2htdp/image)
+
+(circle 30 "solid" "white")
+(rectangle 30 60 "solid" "white")
+(text "ehllo" 24 "orange" )
+
+( above (circle 30 "solid" "white")  (circle 30 "solid" "green")  (circle 30 "solid" "blue"))
+( beside (circle 30 "solid" "white")  (circle 30 "solid" "green")  (circle 30 "solid" "blue"))
+( overlay (circle 30 "solid" "white")  (circle 30 "solid" "green")  (circle 30 "solid" "blue"))
+
+
+; Constant Definitions
+(define NAME "mohamed")
+(define AGE 20)
+(writeln NAME )
+
+
+; Functions 
+
+(define ( print_name name age)
+    (write name )
+    (write age)
+)
+
+(print_name "mohamed diaa eldin" 20 )
+
+
+; Booleans
+(define WIDTH 300)
+(define HEIGHT 300)
+
+' (writeln ( > WIDTH HEIGHT))
+' (writeln ( > HEIGHT WIDTH))
+
+
+' (writeln ( string=? "mohamed" "diaa")) 
+' (writeln ( string=? "mohamed" "mohamed")) 
+
+; If expressions
+
+( if ( = WIDTH HEIGHT) 
+    (writeln "they are equals")
+    (writeln "they are  not equals")
+)
+
+
+
