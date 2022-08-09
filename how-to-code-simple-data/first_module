@@ -71,4 +71,10 @@
 )
 
 
+; 
+(define WIDTH 100)
+(define HEIGHT 200) 
+(define AGE 22) 
 
+(writeln (and ( < WIDTH HEIGHT) ( > HEIGHT AGE) ) )
+(writeln (or ( < WIDTH HEIGHT) ( > AGE HEIGHT) ) )
