@@ -1,0 +1,19 @@
+' (writeln "Welcome to JDoodle!!")
+' (writeln ( + 3 2 ( - 1) ))
+
+' Expirations 
+
+' (writeln (sqr 3))
+' (writeln (sqrt 9))
+
+' (writeln  (sqrt  ( + (sqr 3) (sqr 4) ) ) )
+
+' (writeln ( sqrt 2 ))
+
+' (writeln ( / (+ 4 6.2 -12 ) 3))
+
+' (writeln ( / (+ -8 6.2 ) 3))
+
+' Evaluation
+
+
