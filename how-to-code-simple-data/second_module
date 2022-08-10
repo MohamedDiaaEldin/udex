@@ -1,0 +1,15 @@
+how to design function 
+
+HTDF recipe 
+- signature, purpose , sub 
+	signature -> takes number and returns number 
+	purpose   -> produce 2 times the given number 
+	stub      -> define a function (correct function name , correct number of parametersm , produces dummy result of correct type)
+
+- examples -> unit test the functions 
+- inventory - template & constants 
+	implement empty function for now 
+- code body 
+- test and debug
+
+

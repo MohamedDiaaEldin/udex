@@ -78,3 +78,5 @@
 
 (writeln (and ( < WIDTH HEIGHT) ( > HEIGHT AGE) ) )
 (writeln (or ( < WIDTH HEIGHT) ( > AGE HEIGHT) ) )
+
+
