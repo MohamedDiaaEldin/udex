@@ -13,3 +13,45 @@ HTDF recipe
 - test and debug
 
 
+
+
+# switch in this language 
+
+(define (is_tall number)
+    (cond [(> number 10) "tall"]
+          [(= number 10) "equal"]
+          [else  "short"]
+          
+          
+))
+
+
+(writeln (is_tall 20 ))
+
+
+Data definitions example
+
+example trafic-light :
+0 
+1
+2
+color traffic light 0 is red, 1 yellow , 2 green
+
+### Design data definitions - data driven for functions 
+inforamatind about data of city problem in your app 
+
+data definition of (city) 
+examples : cairo , giza , alex 
+produce True if the city is the best city in the world
+
+function examplel is python 
+	def is_best_city_in_the_world(city_name):
+		return True if city_name == 'makah" else False
+
+
+unit tests for both cases 
+	isTrue(is_best_city_in_the_world('makah'))
+	isFalse(is_best_city_in_the_world('anything'))
+
+
+
