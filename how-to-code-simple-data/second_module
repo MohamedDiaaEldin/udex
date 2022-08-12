@@ -55,3 +55,27 @@ unit tests for both cases
 
 
 
+
+(VERY IMPORTANT EXAMPLE to define data)
+- Other example  -manage ticket sales for theatre
+
+# seatnum is natural[1, 32] 
+notes for me --> from 1 to 32 inclusive
+		if we type natural[1, 32) from 1 to 31 noninclusive
+
+# interpretaions : seat number is in a row , 1 and 32 aisle seats
+# examples  seat_1 = 1   aisle
+	    seat_2 = 12  middle 
+	    seat_3 = 32  aisle
+
+
+- other exmaple
+design a system to keep track of student grades, you are asked to design a data definition to represent the laetter grade in a course, which is one of A, B or c
+
+# letterGrade is one of 
+	- A
+	- B
+	- C
+# interpretations: the letter grade in a course
+# examples are reduant for enumerations
+ 
