@@ -1,10 +1,12 @@
 how to design function 
 
+
 HTDF recipe 
 - signature, purpose , sub 
 	signature -> takes number and returns number 
 	purpose   -> produce 2 times the given number 
 	stub      -> define a function (correct function name , correct number of parametersm , produces dummy result of correct type)
+
 
 - examples -> unit test the functions 
 - inventory - template & constants 
@@ -78,4 +80,7 @@ design a system to keep track of student grades, you are asked to design a data 
 	- C
 # interpretations: the letter grade in a course
 # examples are reduant for enumerations
+
+
+
  
